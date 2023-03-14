@@ -29,7 +29,7 @@ public class PublisherControllerTest {
     @MockBean
     PublisherRepository authorRepository;
 
-    private ObjectMapper mapper = new ObjectMapper();
+    private final ObjectMapper mapper = new ObjectMapper();
 
     public Publisher createPublisher() {
         Publisher publisher = new Publisher();

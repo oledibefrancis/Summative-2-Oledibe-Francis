@@ -31,7 +31,7 @@ public class AuthorControllerTest {
     @MockBean
     AuthorRepository authorRepository;
 
-    private ObjectMapper mapper = new ObjectMapper();
+    private final ObjectMapper mapper = new ObjectMapper();
 
     public Author createAuthor() {
         Author author = new Author();

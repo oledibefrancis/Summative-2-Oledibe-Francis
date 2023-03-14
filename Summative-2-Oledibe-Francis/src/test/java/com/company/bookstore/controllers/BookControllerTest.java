@@ -37,7 +37,7 @@ public class BookControllerTest {
     BookRepository bookRepository;
 
 
-    private ObjectMapper mapper;
+    private final ObjectMapper mapper;
 
     public BookControllerTest() {
         this.mapper = new ObjectMapper();
